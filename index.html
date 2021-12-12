@@ -1,132 +1,77 @@
 <!DOCTYPE html>
 <!--
-    Ajpreet Singh
-    IT341 - 01
-    Assignment 9: CSS Boxes
-    November 10, 2021
+Ajpreet Singh
+Elainea Neville
+IT341 - 01
+Final Website Project
+CREATED ON : November 11, 2021
+LAST EDITTED ON : December 10, 2021
+-->
+<!--
+  Home page of the entire website project
 -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 9</title> 
-    <link rel="stylesheet" href="style.css">
-
+    <title>Website Project Home Page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="images/favicon.png">
 </head>
 <body>
-    <header>
-        <h1 id="_header">About Chikki</h1>
-    </header>
-    <article>
-        <p class="chikkiIntro">Helo. <b>I am Chikki</b> beb :)</p>
-        <div class="photos">
-            <img src="images/chikkilibrary.jpg"
-            class="chikkiSinglePhotos"
-            alt="Photo of Chikki"
-            title="This is me :D"
-            height="250px"
-            width="250px" />
-        </article>
-        
-        <p class="chikki"><b>adoped from bronks zoo</b> in New York :)</p>
-        <div class="photos">
-            <img src="images/chikkiadoption.jpg"
-            class="chikkiSinglePhotos"
-            alt="Chikki in Bronx Zoo"
-            title="''Chikki was adopted from the Bronx Zoo''"
-            height="337px"
-            width="181px" />
-        </div>
+  <!--Wrapper-->
+  <header>
+    <nav>
+      <ul>
+        <li><a target href="index.html" style="box-shadow: rgb(25, 5, 70, 85) 0px -2px 0px inlet;" class="current-page">Home</a></li>
+        <li><a target href="game-clips.html" style="box-shadow: rgb(25, 5, 70, 85) 0px -2px 0px inlet;">Game Clips</a></li>
+        <li><a target href="about-chikki.html" style="box-shadow: rgb(25, 5, 70, 85) 0px -2px 0px inlet;">About Chikki</a></li>
+        <li><a target href="about-me.html" style="box-shadow: rgb(25, 5, 70, 85) 0px -2px 0px inlet;">About me</a></li>
+        <li><a target href="about.html" style="box-shadow: rgb(25, 5, 70, 85) 0px -2px 0px inlet;">About</a></li>
+        <li><a href="scrapped_project/index.html" target="_blank" style="box-shadow: rgb(25, 5, 70, 85) 0px -2px 0px inlet;">Scrapped Website Project</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <p class="chikki">
-            I am called Chikki beb because <b>I am very smol</b> >:O <br />
-            I am <b>32oz or 900ml tall</b> :D
-        </p>
-        <div class="photos">
-            <img src="images/inkedchikkiheight.jpg"
-            class="chikkiSinglePhotos"
-            alt="Picture of Chikki next to a bottle, demonstrating Chikki's height"
-            title="''Chikki is small''"
-            height="384px"
-            width="288px" />
-        </div>
 
-        <p class="chikki">My family taut me how to <b>read</b> :)</p>
-        <div class="photos">
-            <img src="images/chikkireading.jpg"
-            class="chikkiSinglePhotos"
-            alt="Chikki reads a book"
-            title="Reading a book for true intellectuals such as myself"
-            height="197px"
-            width="144px" />
-        </div>
 
-        <p class="seriousChikki">
-            In the past, I've committed numerous war crimes, violating the
-            <i>Geneva Suggestions</i> during a special ops mission for the
-            government.
-        </p>
-        <div class="photos">
-            <img src="images/chikkiwarcrime.jpg"
-            id="_chikkiWarCrime"
-            alt="Chikki commits a war crime"
-            title="''Chikki commits a war crime''"
-            height="180px"
-            width="320px" />
-        </div>
+  <!--Content below the wrapper-->
+  <div class="redbackground"
+  style="margin-top: 70px;">
+    <h1>This is my first Website Project!</h1>
+    <p>In this project, I apply what I've learned after a course in <bold> <a href="https://techterms.com/definition/web_design" 
+      target="_blank" title="What web design entails">Web Design</a></bold>.
+    </p>
+    <br />
+    <h2>Design inspiration</h2>
+    <p>I loved the way that <bold><a href="https://playvalorant.com/en-us/" target="_blank" title="Valorant home page">Riot Game's
+      Valorant website</a></bold> looked. So, I tried to mimic their website design with the skills I had, and by inspecting their
+      websites' pages a lot.
+    </p>
+    <br />
+    <h2>Previous website idea</h2>
+    <p>At first, I thought about my website project containing an archive. The website project would be updated every week or 
+      to and stored in the archive. This would show what I've learned for Web Design as I progressed throughout the semester.
+      I've kept the previous website project in the 
+      <bold><a href="scrapped_project/index.html" target="_blank" title="My scrapped website project">Scrapped Website Project</a></bold> 
+      page.
+    </p>
+    <h2>Current website</h2>
+    <p>I've scrapped the idea since it took too much effort to create different versions of the website project to store in the
+      archives, and to edit each of them. I also wanted to remake my website from the ground up in order to clean up my code a bit
+      and to add in more CSS. The result is this website project.
+    </p>
+  </div>
 
-        <p class="chikki">My <b>drip</b> is outa tis world ^O^</p>
-        <div>
-            <img src="images/chikkidrip1.jpg"
-            class="chikkiSinglePhotos"
-            alt="Chikki in a stylish accesory #1"
-            title="''Chikki's drip is extraterrestial''"
-            height="197px"
-            width="144px" />
-            <img src="images/chikkidrip2.jpg"
-            class="chikkiSinglePhotos"
-            alt="Chikki in a stylish accesory #2"
-            title="''Chikki embodies the pinnacle of modern fashion''"
-            height="197px"
-            width="144px" />
-            <img src="images/chikkidrip3.jpg"
-            class="chikkiSinglePhotos"
-            alt="Chikki in a stylish accesory #3"
-            title="I like thes glases :D "
-            height="197px"
-            width="144px" />
-        </div>
 
-        <p class="chikki">i lerned how to do thes things in css :D</p>
-        <ol>
-            <li>won</li>
-            <li>two</li>
-            <li>thre</li>
-            <li>for</li>
-            <li>fiv</li>
-        </ol>
-        <ul>
-            <li>rocket</li>
-            <li>I helped Chikki</li>
-            <li>find this rocket.svg</li>
-            <li>file from an example</li>
-            <li>of list style images online</li>
-        </ul>
-        <div id="_surveyContainer">
-            <fieldset class="survey">
-                <legend>Survey</legend>
-                <form method="get" action="surveyResult.html" target="_blank">
-                    Which style do you like more? <br />
-                    <input  type="radio" name="choice" value="georgian" />
-                    Georgian numbers <br />
-                    <input  type="radio" name="choice" value="rocket" />
-                    Rocket going weeee o_O!? <br />
-                    <input id="_submit" type="submit" name="submit button" >
-                </form>
-            </fieldset>
-        </div>
-        <p class="chikkiLastLine">This is al about me :D. I hop we can al be freinds som day :)</p>
-    </article>
-</body>
+
+  <!--Footer-->
+  <footer>
+    <ul>
+      <li><a href="mailto:singhag19@juniata.edu"><img class="default" src="images/send-email.png" height="24px" width="24px">
+        singhag19@juniata.edu</a>
+      </li>
+    </ul>
+  </footer>
 </html>

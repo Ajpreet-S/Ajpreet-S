@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Web Project Donations</title>
+    <style>
+      body {
+        font-family: arial;
+      }
+    </style>
+  </head>
+  <header>
+    <h1><a href="index.html"><img src="images/logo.jpg" height></a>
+      Web Project Donations</h1>
+    <h5><a href="index.html">Website Project Home Page</a> > Donations</h5>
+    <hr />
+  </header>
+  <body>
+    <section> <!--Explaining this page-->
+      <h2>Help support this project!</h2>
+      <p>This Web Project will be used to help fight poverty and world hunger!</p>
+      <h2>Win free prizes!</h2>
+      <p>You win nothing, but for free!</p>
+      <h2>Donate now!</h2>
+      <p>This is just for an assignment.</p>
+    </section>
+    <section> <!--Will contain the forms-->
+      <fieldset style="max-width: 500px;"> <!--Forms-->
+        <legend>Donate</legend>
+        <form method="get">
+          <label>
+            Name : <input type="text" name="name" placeholder="First and Last Name" />
+          </label>
+          <br />
+          <label>
+            Email address : <input type="email" name="email" />
+          </label>
+          <br />
+          <label>Phone number : <input type="text" name="number" maxlength="12" />
+          <br />
+          <label>
+            *Card number : <input type="text" name="cardnumber" placeholder="Card number"
+            maxlength="16" required="required" />
+          </label>
+          <br />
+          <label>
+            *Cardholder name : <input type="text" name="cardholdername" required="required" />
+          </label>
+          <br />
+          <label>
+            *The 3 digits on the back : <input type="password" name="digits" maxlength="3"
+            required="required" />
+          </label>
+          <br />
+          Do you want to hear more about your car's extended warranty?
+          <br />
+          <input id="yes" type="radio" name="warranty" value="yes">
+          <label for="">Yes</label>
+          <input id="no" type="radio" name="warranty" value="no">
+          <label for="no">No</label>
+          <br />
+          How did you hear about us?
+          <br />
+          <input id="internet" type="checkbox" name="marketingstuff" value="internet">
+          <label for="internet">Internet</label>
+          <br />
+          <input id="olympics" type="checkbox" name="marketingstuff" value="olympics">
+          <label for="olympics">Advertisement from the Olympics</label>
+          <br />
+          <input id="wordofmouth" type="checkbox" name="marketingstuff" value="wordofmouth">
+          <label for="wordofmouth">Word of mouth</label>
+          <br />
+          <input id="professor" type="checkbox" name="marketingstuff" value="professor">
+          <label for="professor">I'm your professor and would love to donate to this humble cause.</label>
+          <br />
+          Using at least 1 word, why are you interested in crypto like bitcoin, dogecoin, and v-bucks?
+          <textarea name="textareastuff" rows="8" cols="80" required="required"
+          placeholder="Type here..."></textarea>
+          <br />
+          <input type="submit" value="Donate">
+        </form>
+      </fieldset>
+    </section>
+  </body>
+</html>
